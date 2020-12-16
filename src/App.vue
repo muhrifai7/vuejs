@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Navbar
+    <Home
       name="Test"
       :navLinks="[
         {
@@ -21,15 +21,14 @@
 </template>
 
 <script>
-import Navbar from '@/components/Navbar.vue';
+import Home from "@/components/Home.vue";
 // import Home from '@/components/Home.vue';
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    Navbar,
-    // Home
+    Home,
   },
-}
+};
 </script>
 
 <style>
@@ -38,7 +37,7 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   overflow-x: hidden;
 }
 </style>
